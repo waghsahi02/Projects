@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Resume Generator</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="maincontainer">
+    <div class="container1" id="form">
+        <div class="title">Resume Generator</div>
+
+        <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input id="name1" type="text" placeholder="Enter Name" >
+                    </div>
+ 
+                    <div class="input-box">
+                        <span class="details">Contact</span>
+                        <input id="contact1" type="text" placeholder="Enter 10 Digit Contact" >
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Address</span>
+                        <input id="address1" type="text" placeholder="Enter Address" >
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Linkedin</span>
+                        <input id="linkedin1" type="text" placeholder="Paste Link Here" >
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Github</span>
+                        <input id="git1" type="text" placeholder="Paste Link Here" >
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Education</span>
+                        <input id="edu1" type="text" placeholder="Enter Details Here" >
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Experiance</span>
+                        <input id="exp1" type="text" placeholder="Enter Details Here" >
+                    </div> 
+
+                    <div class="input-box">
+                        <span class="details">Technical Skills</span>
+                        <input id="tech1" type="text" placeholder="Enter Details Here" >
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Certification Links</span>
+                        <input id="cert1" type="text" placeholder="Enter Links Here" >
+                    </div>
+
+                
+                    <p>Note: (Sample Resume is provided below for Reference, Also Try to fill form again if Resume not generated in first attempt !! )</p>
+
+                    <div class="button">
+                        <button onclick="show()">Generate Resume </button>
+                    </div>
+                </div>
+        </form>
+    </div>
+
+<div class="container2" id="template">
+
+    <div class="basic-info">
+    <p id="name2">Default Name</p>
+    <p id="contact2">+913545548434 | +915343563252</p>
+    <p id="address2">Default Adress Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt veniam adipisci, perspiciatis maxime temporibus nostrum. Dolores saepe ipsa voluptate quos!</p>
+    <br>
+    <a id="linkedin2" href="#1">https://www.linkedin.com/</a> |
+    <a id="git2" href="#2">https://www.github.com/</a>
+    <hr>
+    </div>
+
+    <div class="other-info">
+        <p><strong>EDUCATION</strong></p>
+        <p id="edu2"> <strong>Institute name, Course name, </strong> <br> Passing Year, Total CGPA 
+        <br> <br> <strong>Institute name, Course name, </strong><br> Passing Year, Marks Obtained (Percentage)
+        </p>
+        <hr>  
+        <p><strong>WORK EXPERIANCE</strong></p>  
+        <p id="exp2"> <strong>Company Name1, Position1, </strong><br> Work/Projects Done !!!! <br> Date Started - Date Ended <br> Certificate Link :
+        <br> <br><strong>Company Name2, Position2, </strong> <br> Work/Projects Done !!!! <br> Date Started - Date Ended <br> Certificate Link : 
+        </p>
+        <hr>
+        <p><strong>TECHNICAL SKILLS</strong></p>
+        <p id="tech2"> <strong>Langauges</strong> : <br> HTML, CSS, JAVASCRIPT, JAVA, PYTHON, C, C++
+        <br> <br> <strong>Databases</strong> : <br> MYSQL, ORACLE
+        <br> <strong>Operatong Systems</strong> : <br> WINDOWS, LINUX, MAC
+        <br> <br> <strong>Soft Skills </strong> : <br> Creative Thinking, Leadership, Problem Solving Ability, Organising Skill, Project Management etc !!
+        </p>
+        <hr>
+        <p><strong>CERTIFICATION LINKS</strong></p>
+        <a id="cert2" href="#3">https://www.drive_link_example.com/</a>
+        
+    </div>
+
+    <div class="button">
+        <button onclick="printresume()">Print Resume</button>
+    </div>
+
+</div>
+</div>
+<script src="script.js">
+</script>
+
+</body>
+</html>

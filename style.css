@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url("back.jpg");
+
+}
+
+.container1{
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 1700px ;
+    margin-bottom: 200px;
+    background-image: url("container_back.jpg");
+    padding: 25px 35px;
+    border: 3px solid black;
+
+}
+
+.container1 .title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container1 .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.user-details .input-box{
+    margin-bottom: 20px;
+    width:30%;    
+}
+
+.user-details .input-box details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.button{
+    height: 45px;
+    margin: 45px 0;
+}
+
+.button button{
+    height: 100%;
+    width: 1000px;
+    color: #fff;
+    background-color: #9b59b6;    
+}
+
+
+.container2{
+    max-width: 700px;
+    width: 100%;
+    background-image: url("container_back.jpg");
+    padding: 25px 35px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 3px solid black;
+    
+}
+
+.container2 .basic-info{
+    text-align: center;
+}
+
+.container2 .button{
+    height: 45px;
+    margin: 45px 0;
+}
+
+.container2 .button button{
+    height: 100%;
+    width: 700px;
+    color: #fff;
+    background-color: #9b59b6;
+
+}
+
